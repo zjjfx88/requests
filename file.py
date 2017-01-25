@@ -23,6 +23,6 @@ __mtime__ = '2017/1/25'
 import random
 file = open('newfile','w')
 a = random.randint(0,100)
-file.write(a)
+file.write(str(a))
 
 file.close()
