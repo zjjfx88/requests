@@ -20,6 +20,7 @@ __mtime__ = '2017/1/25'
                    ┃ ┫ ┫   ┃ ┫ ┫
                    ┗━┻━┛   ┗━┻━┛
 """
+#测试更新
 import random
 file = open('newfile','w')
 a = random.randint(0,100)
