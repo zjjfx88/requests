@@ -20,8 +20,9 @@ __mtime__ = '2017/1/25'
                    ┃ ┫ ┫   ┃ ┫ ┫
                    ┗━┻━┛   ┗━┻━┛
 """
-file = open('newfile','a+')
-
-file.write('abcd')
+import random
+file = open('newfile','w')
+a = random.randint(0,100)
+file.write(a)
 
 file.close()
