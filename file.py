@@ -26,4 +26,5 @@ file = open('newfile','w')
 a = random.randint(0,100)
 file.write(str(a))
 
+
 file.close()
